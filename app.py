@@ -1,6 +1,3 @@
-name = 'Jhon Smith'
-age = 20
-is_new = True
-print(name)
-print(age)
-print(is_new)
+weight_pound=input('What is your weight in pound? ')
+weight_kilogram=int(weight_pound)*0.453592
+print(weight_kilogram)
