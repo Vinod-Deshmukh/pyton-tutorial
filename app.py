@@ -1,4 +1,1 @@
-print("Vinod Deshmukh")
-print('O----')
-print(' ||||')
-print('*'*10)
+print("Hello World")
