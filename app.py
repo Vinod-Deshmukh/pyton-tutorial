@@ -1,7 +1,7 @@
-print("#25 Lists")
-numbers=[10,20,3000,141,2400,6000,8700]
-largest_number=0;
-for number in numbers:
-    if largest_number<number:
-        largest_number=number;
-print(largest_number)
+print("#26 2D Lists")
+matrix=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+print(matrix[0][1])
