@@ -1,6 +1,9 @@
-print("#22 For Loop")
-for item in 'Python':
-    print(item)
-
+print("#23 Nested  Loop")
+numbers=[5,2,5,2,2]
+for x_count in numbers:
+    output=''
+    for count in range(x_count):
+        output+='X'
+    print(output)
 
 
