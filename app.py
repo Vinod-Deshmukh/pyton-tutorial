@@ -1,8 +1,20 @@
-print("#27 Lists Methods: Write a Program to remove the duplicates on a List")
-numbers=[10,21,23,21,10,10,5,44]
-uniques=[]
+print("#30 Dictionaries: Write a program which returns phone number into words")
+ph_number={
+    "0":"Zero",
+    "1":"One",
+    "2":"Two",
+    "3":"Three",
+    "4":"four",
+    "5":"five",
+    "6":"Six",
+    "7":"Seven",
+    "8":"Eight",
+    "9":"Nine"
+}
+numbers=input("Phone:")
+output=""
 for number in numbers:
-    if number not in uniques:
-        uniques.append(number)
-print(numbers)
-print(uniques)
+    output+=ph_number.get(number,"!")+ " "
+print(output)
+
+
