@@ -1,4 +1,7 @@
-print("#29 Tuples Methods")
-numbers=(1,2,3,4,4,4,4,4)
-print(numbers.count(4))
-print(f"index of 2 is: {numbers.index(2)}")
+print("#29 Unpacking")
+numbers=(1,2,3)
+numbers2=[4,5,6]
+a,b,c=numbers2
+x,y,z=numbers
+print(f"valure of y is: {y}")
+print(f"value of a is: {a}"
