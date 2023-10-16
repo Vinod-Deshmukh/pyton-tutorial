@@ -1,3 +1,4 @@
+
 print("#32 Functions")
 def greet_user():
     print("Welcome User")
@@ -5,3 +6,4 @@ def greet_user():
 
 
 greet_user()
+
