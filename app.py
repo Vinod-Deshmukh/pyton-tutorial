@@ -1,8 +1,19 @@
+print("#36 Reusable Function")
+message=input(">")
+def emoji_converter(message):
+    words=message.split(" ")
+    emoji={
+        ":)":"😃",
+        ":(":"😌"
+    }
+    output=""
+    for word in words:
+        output+=emoji.get(word,word)+" "
+    return output
 
-print("#35 Return Statement")
-def square(x):
-     return x*x
+
+print(emoji_converter(message))
+# print(output)
 
 
 
-print(square(5))
