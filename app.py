@@ -10,3 +10,6 @@ class Person:
 person=Person("Vinod Deshmukh")
 print(person.name)
 person.talk()
+don=Person("Don Corleon 🐴")
+print(don.name)
+don.talk()
