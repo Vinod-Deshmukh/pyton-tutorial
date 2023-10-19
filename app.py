@@ -1,17 +1,12 @@
-print("#39 Classes")
-class Point:
-    def move(self):
-        print("Move")
+print("#40 Constructors")
+class Person:
+    def __init__(self,name):
+        self.name=name
 
-    def draw(self):
-        print("Draw")
+    def talk(self):
+        print("Talk!")
 
-point1=Point()
-point1.draw()
-point1.move()
-point1.x=100
-point1.y=250
-print(point1.y)
-point2=Point()
-point2.y=7500000000
-print(point2.y)
+
+person=Person("Vinod Deshmukh")
+print(person.name)
+person.talk()
