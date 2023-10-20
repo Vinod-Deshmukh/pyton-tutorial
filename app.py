@@ -1,7 +1,16 @@
-print("#43 Packeges")
-# import ecommerce.shipping
-# from ecommerce.shipping import calc_shipping
-from ecommerce import shipping
-# print(ecommerce.shipping.calc_shipping())
-# print(calc_shipping())
-print(shipping.calc_shipping())
+import random
+
+print("#44 Generating Random Number")
+
+
+class Dice:
+    def roll(self):
+        roll1=random.randint(1,6)
+        roll2=random.randint(1,6)
+        # result=(roll1,roll2)
+        # return result
+        return roll1,roll2
+
+
+dice=Dice()
+print(dice.roll())
