@@ -1,5 +1,7 @@
-print("#41 Modules")
-from utils import find_max
-list=[10,20,30,40]
-print(find_max(list))
-
+print("#43 Packeges")
+# import ecommerce.shipping
+# from ecommerce.shipping import calc_shipping
+from ecommerce import shipping
+# print(ecommerce.shipping.calc_shipping())
+# print(calc_shipping())
+print(shipping.calc_shipping())
