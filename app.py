@@ -1,16 +1,15 @@
-import random
+from pathlib import Path
 
-print("#44 Generating Random Number")
+print("#45 Files And Directories")
 
-
-class Dice:
-    def roll(self):
-        roll1=random.randint(1,6)
-        roll2=random.randint(1,6)
-        # result=(roll1,roll2)
-        # return result
-        return roll1,roll2
+path=Path()
+for file in path.glob('*.*'):
+    print(file)
 
 
-dice=Dice()
-print(dice.roll())
+# path=Path("ecommerce")
+# print(path.exists())
+# path2=Path("email")
+# print(path2.exists())
+#  print(path2.mkdir())
+#  print(path2.rmdir())
