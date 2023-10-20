@@ -1,17 +1,5 @@
-print("#41 Inheritance")
-class Mammal:
-    def walk(self):
-        print("walk")
+print("#41 Modules")
+from utils import find_max
+list=[10,20,30,40]
+print(find_max(list))
 
-class Dog(Mammal):
-    def run(self):
-        print("run!")
-
-class Cat(Dog):
-    pass
-dog=Dog()
-cat=Cat()
-dog.walk()
-cat.walk()
-dog.run()
-cat.run()
