@@ -1,15 +1,17 @@
-print("#40 Constructors")
-class Person:
-    def __init__(self,name):
-        self.name=name
+print("#41 Inheritance")
+class Mammal:
+    def walk(self):
+        print("walk")
 
-    def talk(self):
-        print(f"Hi, I am {self.name} !")
+class Dog(Mammal):
+    def run(self):
+        print("run!")
 
-
-person=Person("Vinod Deshmukh")
-print(person.name)
-person.talk()
-don=Person("Don Corleon 🐴")
-print(don.name)
-don.talk()
+class Cat(Dog):
+    pass
+dog=Dog()
+cat=Cat()
+dog.walk()
+cat.walk()
+dog.run()
+cat.run()
